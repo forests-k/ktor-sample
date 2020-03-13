@@ -47,5 +47,9 @@ dependencies {
     compile "io.ktor:ktor-client-json-jvm:$ktor_version"
     compile "io.ktor:ktor-client-gson:$ktor_version"
     compile "io.ktor:ktor-client-logging-jvm:$ktor_version"
+    compile "io.ktor:ktor-thymeleaf:$ktor_version"
     testCompile "io.ktor:ktor-server-tests:$ktor_version"
+
+    compile "org.jetbrains.exposed:exposed:$exposed_version"
+    compile "mysql:mysql-connector-java:5.1.46"
 }
